@@ -9,14 +9,17 @@ html, body {
 
 .logo{
   text-align: center;
-  background-color: rgb(49, 109, 179);
-  color: white;
+  background-color: #85C1E9 ;
+  color: #330099 ;
   padding: 0.5em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #character-bar {
   height: 15vh;
-  background: rgb(49, 109, 179);
+  background: #5499C7 ;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,22 +28,32 @@ html, body {
 
 #character-bar span {
   padding: 1%;
-  height: 80%;
-  width: 8vw;
+  height: 50%;
+  width: 15vw;
   display: flex;
   justify-content: center;
   font-size: 3vh;
   align-items: center;
-  border-radius: 2em;
-  border: 1px solid white;
+  border-radius: 0.5em;
+  border: 0.2px solid white;
+  background:#CFD8DC;
+ 
 }
 
+#character-bar span:hover{
+  background-color: #F2F4F4 ;
+}
+
+
+
 .characterInfo{
-  height: 550px;
+   height: 70vh; 
   padding: 30px;
   font-size: 24px;
-  border: dotted;
+  /* border: dotted; */
   text-align: center;
+  background:  #1B4F72 ;
+
 }
 
 input[type="submit"], button {
@@ -58,4 +71,10 @@ input[type="text"] {
 #image{
   width: 300px;
   height: 300px;
+}
+.navbar-brand {
+ padding-right: 350px;
+}
+.nav-item {
+  padding-right: 200px;
 }
